@@ -7,7 +7,7 @@ import {HamburgerMenu} from "./design/Header.jsx";
 import MenuSvg from "../assets/svg/MenuSvg.jsx";
 import {disablePageScroll, enablePageScroll} from "scroll-lock/dist/scroll-lock.js";
 
-function Header(props) {
+function Header() {
     const pathname = useLocation();
     const [openNavigation, setOpenNavigation] = useState(false);
 
